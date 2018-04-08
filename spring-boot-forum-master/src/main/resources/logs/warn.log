@@ -1,0 +1,70 @@
+[09:27:19:455] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[09:29:41:667] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=true
+[09:29:44:095] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=true
+[09:29:45:680] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=true
+[10:30:31:722] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:31:730] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:30:33:532] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:33:533] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:30:34:349] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:34:356] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:30:34:782] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:34:782] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:30:35:042] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:35:043] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:30:35:393] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:30:35:394] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:32) - hlhdidi
+[10:33:15:912] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:33:15:913] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[10:33:23:929] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:33:23:930] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[10:33:24:289] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:33:24:290] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[10:40:38:216] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[10:40:38:218] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[10:40:38:218] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[10:40:38:650] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[10:40:38:653] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[10:40:38:653] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[10:40:38:657] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success
+[11:05:40:976] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false
+[11:05:40:978] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - null
+[11:05:40:979] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - null
+[11:10:45:433] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[11:10:45:434] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[11:10:45:434] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[11:10:45:442] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[11:10:45:447] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[11:10:45:448] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[11:10:45:450] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success
+[11:18:26:019] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[11:18:26:020] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[11:18:26:021] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[11:18:26:388] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[11:18:26:392] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[11:18:26:392] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[11:18:26:398] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success
+[11:19:13:542] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[11:19:13:543] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[11:19:13:544] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[11:19:13:913] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[11:19:13:916] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[11:19:13:916] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[11:19:13:923] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success
+[14:47:08:733] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[14:47:08:734] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[14:47:08:735] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[14:47:08:742] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[14:47:08:742] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[14:47:08:743] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[14:47:08:743] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success
+[14:47:15:172] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false
+[14:47:15:173] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - null
+[14:47:15:173] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - null
+[14:47:17:105] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:37) - org.apache.shiro.authc.UsernamePasswordToken - hlhdidi, rememberMe=false
+[14:47:17:107] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:33) - hlhdidi
+[14:47:17:108] [WARN] - com.li.service.impl.UserServiceImpl.findUserByName(UserServiceImpl.java:18) - hlhdidi
+[14:47:17:113] [WARN] - com.li.web.AuthRealm.doGetAuthenticationInfo(AuthRealm.java:35) - hlhdidi
+[14:47:17:114] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:18) - 123
+[14:47:17:114] [WARN] - com.li.web.CredentialsMatcher.doCredentialsMatch(CredentialsMatcher.java:21) - 123
+[14:47:17:115] [WARN] - com.li.controller.LoginController.loginUser(LoginController.java:44) - success

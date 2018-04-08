@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qingwenwei.persistence.dao.UserMapper">
+    
+    <resultMap id="UserResultMap" type="com.qingwenwei.persistence.model.User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="email" column="email"/>
+        <result property="confirmationToken" column="confirmation_token"/>
+        <result property="activated" column="activated"/>
+        <result property="dateCreated" column="date_created"/>
+        <result property="avatarLocation" column="avatar_location"/>
+        <result property="bio" column="bio"/>
+    </resultMap>
+    
+    <sql id="baseColumns" >
+        id, username, password, email, activated, date_created, avatar_location, bio，roles
+    </sql>
+    <insert id="save" parameterType="com.qingwenwei.persistence.model.User">
+        INSERT INTO `T_USER`
+            (
+            username,
+            password,
+            email,
+            confirmation_token,
+            activated,
+            date_created,
+            avatar_location,
+            bio,
+            roles
+            )
+        VALUES 
+            (
+            #{user.username},
+            #{user.password},
+            #{user.email},
+            #{user.confirmationToken},
+            #{user.activated},
+            #{user.dateCreated},
+            #{user.avatarLocation},
+            #{user.bio},
+            #{user.roles}
+            )
+    </insert>
+    
+    <select id="findById" parameterType="Long" resultMap="UserResultMap">
+        SELECT 
+	        id,
+	        username, 
+	        password, 
+	        email, 
+	        activated, 
+	        date_created, 
+	        avatar_location, 
+	        bio,
+	        roles
+        FROM T_USER
+        WHERE id = #{id}
+    </select>
+    
+    <select id="findByUsername" parameterType="String" resultMap="UserResultMap">
+        SELECT 
+            id,
+            username, 
+            password, 
+            email, 
+            activated, 
+            date_created, 
+            avatar_location, 
+            bio,
+            roles
+        FROM T_USER
+        WHERE username = #{username}
+    </select>
+    
+    <select id="findByEmail" parameterType="String" resultMap="UserResultMap">
+        SELECT
+            id,
+            username, 
+            password, 
+            email, 
+            activated, 
+            date_created, 
+            avatar_location, 
+            bio,
+            roles
+        FROM T_USER
+        WHERE email = #{email}
+    </select>
+    
+    <select id="findByConfirmationToken" parameterType="String" resultMap="UserResultMap">
+        SELECT 
+            id,
+            username, 
+            password, 
+            email, 
+            activated, 
+            date_created, 
+            avatar_location, 
+            bio,
+            confirmation_token,
+            roles
+        FROM T_USER
+        WHERE confirmation_token = #{confirmationToken}
+    </select>
+    
+    <select id="findAll" resultMap="UserResultMap">
+        SELECT 
+            id,
+            username, 
+            password, 
+            email, 
+            activated, 
+            date_created, 
+            avatar_location, 
+            bio,
+            confirmation_token,
+            roles
+        FROM T_USER
+    </select>
+    
+    <update id="update" parameterType="com.qingwenwei.persistence.model.User">
+        UPDATE T_USER SET 
+            password = #{user.password},
+            email = #{user.email},
+            date_created = #{user.dateCreated},
+            avatar_location = #{user.avatarLocation},
+            bio = #{user.bio}
+        WHERE id = #{user.id}
+    </update>    
+    
+</mapper>
